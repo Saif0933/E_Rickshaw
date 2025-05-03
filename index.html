@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Rickshaw</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <div><img src="image/logo.png" width="80px" height="50px"></div>
+        <div><div class="search-container">
+            <input type="search" id="searchInput" placeholder="Enter search term...">
+            <button id="searchButton">Search</button>
+        </div>
+    
+        <!-- Optional: Display area for search results/feedback -->
+        <div id="resultsArea" class="results-area">
+            <!-- Search feedback will appear here -->
+        </div></div>
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="cart-count">0</span>
+      </div>
+                    <!--end add to card section -->
+    </header>
+<!-- End of the existing header -->
+
+<!-- START: Added Banner Section -->
+<section>
+    <div class="ban_1"><img class="ban_img" src="image/king.png" atl="background"></div>
+</section>
+<!-- END: Added Banner Section -->
+        <!-- ... rest of the products section ... -->
+    <main>
+        <section id="products">
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-item" data-id="prod1" data-name="controller" data-price="3.50">
+                    <img src="image/controller.png"alt="spair parts">
+                    <h3>Controller</h3>
+                    <p class="description">Speed Controller</p>
+                    <p class="price">$3.50</p>
+                    <button class="add-to-cart-btn">Add to Cart></button>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-item" data-id="prod2" data-name="key set part" data-price="2.80">
+                    <img src="image/key.png" alt="key">
+                    <h3>Key Set Part</h3>
+                    <p class="description">E-Rickshaw Parts.</p>
+                    <p class="price">$2.80</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-item" data-id="prod3" data-name="speed escalator" data-price="4.20">
+                    <img src="image/speed.png" alt="Free-Range Eggs">
+                    <h3>Speed Escalator</h3>
+                    <p class="description">E-Bike Escalator.</p>
+                    <p class="price">$4.20</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-item" data-id="prod4" data-name="Speed moniter" data-price="2.70">
+                    <img src="image/nmrindia.png" alt="speed moniter">
+                    <h3>Speed Moniter</h3>
+                    <p class="description">E-Rickshaw Speed Moniter.</p>
+                    <p class="price">$2.70</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-item" data-id="prod4" data-name="Moter" data-price="5.15">
+                    <img src="image/moter.png" alt="moter">
+                    <h3>Moter</h3>
+                    <p class="description">All India Best Moter</p>
+                    <p class="price">$5.15</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-item" data-id="prod4" data-name="left_right_switch" data-price="1.10">
+                    <img src="image/left_right_switch.png" alt="left_right_switch">
+                    <h3>Left Right Switch</h3>
+                    <p class="description">E-Rickshaw Left Right Switch.</p>
+                    <p class="price">$3.10</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 7 -->
+                <article class="product-item" data-id="prod4" data-name="istock" data-price="4.20">
+                    <img src="image/istock.png" alt="istock">
+                    <h3>Istock</h3>
+                    <p class="description">Moter controller Switch.</p>
+                    <p class="price">$4.20</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+
+                <!-- Product 8 -->
+                <article class="product-item" data-id="prod4" data-name="Part attese" data-price="3.50">
+                    <img src="image/Parts attese.png" alt="attese">
+                    <h3>Parts Attese</h3>
+                    <p class="description">All Attese Parts.</p>
+                    <p class="price">$3.50</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </article>
+                 <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <!-- start banner nav slider section -->
+    <section class="cont"
+    <div class="sliders-wrapper">
+        <div class="sliders">
+            <img id="sliders1" src="image/e-schooter1.png" alt="e-schooter1"/>
+
+            <img id="sliders2" src="image/2ricks.png" alt="2ricks"/>
+
+            <img id="sliders3" src="image/e-bike1.png" alt="e-bike1"/>
+
+            <img id="sliders4" src="image/rickshaw.png" alt="rickshaw"/>
+          </div>
+          <div class="sliders-nav">
+            <a href="#sliders1"></a>
+            <a href="#sliders2"></a>
+            <a href="#sliders3"></a>
+            <a href="#sliders4"></a>
+          </div>
+        </div>
+    </section>
+            <!-- end banner nav slider section -->
+             <div class="qq">
+                <h2 class="topic">All Type Of Parts </h2>   <!--start topic head line section -->
+             </div>
+
+            <!-- start product item section -->
+            <article class="product-item1" data-id="prod4" data-name="scooter" data-price="4.20">
+                <img src="image/parts.png" alt="Parts">
+                <h3>scooter</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="Hydraulic break" data-price="4.20">
+                <img src="image/hydraulic.png" alt="Hydraulic Break">
+                <h3>Hydraulic Break</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="key parts" data-price="4.20">
+                <img src="image/key.png" alt="Key Parts">
+                <h3>Key Parts</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="moter kit" data-price="4.20">
+                <img src="image/motor_kit.png" alt="Motor Kit">
+                <h3>Motor Kit</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="6 6_spline_differential" data-price="4.20">
+                <img src="image/6_spline_differential.png" alt="6 Spline differentail">
+                <h3>6 Spline differentail</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="scooter body" data-price="4.20">
+                <img src="image/body_schooter.png" alt="Scooter Body">
+                <h3>Scooter Body</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="Electric parts" data-price="4.20">
+                <img src="image/electric_parts.png" alt="Electric Parts">
+                <h3>Electric Parts</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="electric_scooter" data-price="4.20">
+                <img src="image/electric_scooter.png" alt="Electric Scooter Parts">
+                <h3>Electric Scooter Parts</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="speed meter" data-price="4.20">
+                <img src="image/speed.png" alt="Speed">
+                <h3>Speed</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="left_right_switch" data-price="4.20">
+                <img src="image/left_right_switch.png" alt="Left Right Switch">
+                <h3>Left Right Switch</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="moter kit" data-price="4.20">
+                <img src="image/background.png" alt="Moter Kit">
+                <h3>E-rickshaw Kit</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="speed" data-price="4.20">
+                <img src="image/nmrindia.png" alt="Speed Moniter">
+                <h3>Speed Moniter</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="attese parts" data-price="4.20">
+                <img src="image/Parts attese.png" alt="Attese Parts">
+                <h3>Attese Parts</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+
+            <article class="product-item1" data-id="prod4" data-name="controller" data-price="4.20">
+                <img src="image/controller.png" alt="Controller">
+                <h3>Controller</h3>
+                <button class="add-to-cart-btn1">Add to Cart</button>
+            </article>
+            <!-- end product item section -->
+
+            <!-- start second product item section -->
+            <div class="ww">
+              <img class="ww1" src="image/e-schooter1.png" alt="e-scooter" width="500px" height="380px"
+              <p>The early history of electric motorcycles is somewhat unclear. On 19 September 1895, a patent application for an "electrical bicycle" was filed by Ogden Bolton Jr. of Canton Ohio.
+                At the Stanley Cycle Show in 1896 in London, England, bicycle manufacturer Humber exhibited an electric tandem bicycle. Powered by a bank of storage batteries, the motor was placed in front of the rear wheel. Speed control was by a resistance placed across the handlebars. This electric bicycle was mainly intended for racetrack use. Electric motorcycles and scooters are plug-in electric vehicles with two or three wheels. Power is supplied by a rechargeable battery that drives one or more electric motors. Electric scooters are distinguished from motorcycles by having a step-through frame, instead of being straddled. Electric bicycles are similar vehicles, distinguished by retaining the ability to be propelled by the rider pedaling in addition to battery propulsion.</p>
+            </div>
+
+            <div class="sec_1">
+              <img class="img_1" src="image/e-bike1.png" alt="e-scooter" width="500px" height="380px"
+              <p>An electric bicycle, or e-bike, is essentially a bicycle with an integrated electric motor system that assists the rider's pedaling effort or, in some cases, provides propulsion independently (via a throttle). They bridge the gap between traditional bicycles and motorized vehicles like scooters or motorcycles.<br>Easier Riding: Flattens hills, battles headwinds, and makes longer distances more manageable.
+                Increased Accessibility: Enables people of varying fitness levels, ages, or physical abilities to enjoy cycling.
+                Efficient Commuting: Often faster than traditional bikes (especially in hilly areas) and cars (in congested traffic). Arrive less sweaty.
+                Health & Fitness: While assisted, riders still pedal and get exercise. E-bikes often encourage people to ride more often and for longer distances.
+                Environmentally Friendly: A low-emission alternative to cars and motorcycles for short to medium trips.
+                Fun: Riding an e-bike is simply enjoyable!</p>
+            </div>
+
+            <div class="sec_3">
+              <img class="img_3" src="image/e-cycle.png" alt="e-cycle" width="500px" height="380px"
+              <p>An electric bicycle, or e-bike, is essentially a bicycle with an integrated electric motor system that assists the rider's pedaling effort or, in some cases, provides propulsion independently (via a throttle). They bridge the gap between traditional bicycles and motorized vehicles like scooters or motorcycles.<br>Easier Riding: Flattens hills, battles headwinds, and makes longer distances more manageable.
+                Increased Accessibility: Enables people of varying fitness levels, ages, or physical abilities to enjoy cycling.
+                Efficient Commuting: Often faster than traditional bikes (especially in hilly areas) and cars (in congested traffic). Arrive less sweaty.
+                Health & Fitness: While assisted, riders still pedal and get exercise. E-bikes often encourage people to ride more often and for longer distances.
+                Environmentally Friendly: A low-emission alternative to cars and motorcycles for short to medium trips.
+                Fun: Riding an e-bike is simply enjoyable!</p>
+            </div>
+            <!-- end second product item section -->
+
+            <!-- Start read more section -->
+            <section id="products_2">
+                <div class="topic1">
+                    <h2 class="top_div">Best Deal Of The Day</h2>
+                </div>
+            <div class="product-grid_2">
+                
+                <!-- Product 1 -->
+                <article class="product-item_2" data-id="prod1" data-name="controller" data-price="3.50">
+                    <img src="image/controller.png"alt="spair parts">
+                    <h3>Controller</h3>
+                    <p class="description_2">Speed Controller</p>
+                    <button class="add-to-cart-btn_2">Read more</button>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-item_2" data-id="prod2" data-name="key set part" data-price="2.80">
+                    <img src="image/nmrindia.png" alt="key">
+                    <h3>Key Set Part</h3>
+                    <p class="description_2">E-Rickshaw Parts.</p>
+                    <button class="add-to-cart-btn_2">Read more</button>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-item_2" data-id="prod3" data-name="speed escalator" data-price="4.20">
+                    <img src="image/istock.png" alt="Free-Range Eggs">
+                    <h3>Moter parts</h3>
+                    <p class="description_2">E-Bike moter.</p>
+                    <button class="add-to-cart-btn_2">Read more</button>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-item_2" data-id="prod4" data-name="Speed moniter" data-price="2.70">
+                    <img src="image/parts.png" alt="speed moniter">
+                    <h3>Parts</h3>
+                    <p class="description_2">E-Rickshaw parts.</p>
+                    <button class="add-to-cart-btn_2">Read more</button>
+                </article>
+                </section>
+                <!-- end read more section -->
+        <div>
+        <section id="shopping-cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items-container">
+                <!-- Cart items will be injected here by JavaScript -->
+                <p class="empty-cart-message">Your cart is empty.</p>
+            </div>
+            <div class="cart-summary">
+                <p>Total Items: <span id="total-items">0</span></p>
+                <p>Total Price: $<span id="total-price">0.00</span></p>
+                <button id="checkout-btn" disabled>Checkout (Simulated)</button>
+                <button id="clear-cart-btn" disabled>Clear Cart</button>
+            </div>
+        </section>
+        </div>
+                <!-- Strat login section -->
+        <div class="login_sec">
+            <div class="login-container">
+                <form id="loginForm" class="login-form">
+                    <h1>Login</h1>
+        
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                        <div class="error-message" id="usernameError"></div> <!-- Error placeholder -->
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        <div class="error-message" id="passwordError"></div> <!-- Error placeholder -->
+                    </div>
+        
+                    <div class="form-group">
+                        <button type="submit" id="loginButton">Login</button>
+                    </div>
+        
+                    <div class="error-message global-error" id="globalError"></div> <!-- General error message -->
+        
+                    <div class="form-links">
+                        <a href="#">Forgot Password?</a>
+                        <span> | </span>
+                        <a href="#">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+                    <!-- end login section -->
+    </main>
+<!-- START: Updated Footer Section -->
+    <footer>
+            <!-- Existing </main> tag -->
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="footer-logo"><div><img src="image/logo.png" width="80px" height="50px"></div>
+                <p>
+                    Nanya is an established bussiness name in india, which came into inception in 1<br>
+                    Nanya Airconn pvt.Ltd 6/2, W. E. A, 1st Floor, karol Bagh New Delhi-110005, Delhi, india
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://www.liveeatlearn.com/list-of-fruits/" rel="fruits">Home</a></li>
+                    <li><a href="https://www.bitesbee.com/a-to-z-indian-food-list/">Products</a></li>
+                    <li><a href="#shopping-cart">Your Cart</a></li>
+                    <li><a href="https://www.indianretailer.com/article/retail-business/retail/what-grocery-store">About Us</a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter profile">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our Pinterest profile">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> 123-456-7890</span>
+                    <span><i class="fas fa-envelope"></i> nanyaairconn@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © <span id="current-year"></span> 2022 Nanyaerickshaw | All Rights Reserved
+        </div>
+    <!-- END: Updated Footer Section -->
+    <!-- Keep the existing script tag -->
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
